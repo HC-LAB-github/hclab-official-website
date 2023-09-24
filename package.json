@@ -1,0 +1,46 @@
+{
+  "name": "hclab-official-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "commit": "git add .&& git cz",
+    "push": "git push"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog-zh"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "src/**/*.{js,vue}": [
+      "eslint --fix",
+      "git add"
+      ]
+  },
+  "dependencies": {
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "@unocss/postcss": "^0.53.4",
+    "cz-conventional-changelog-zh": "^0.0.2",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.7",
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6",
+    "unocss": "^0.53.4"
+  },
+  "devDependencies": {
+    "@ileostar/eslint-config": "^0.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1"
+  }
+}
