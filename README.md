@@ -7,7 +7,7 @@
 <p align="center">
 <a href="/README.zh-CN.md">🌐 README (zh-CN)</a> |
 <a href="https://mastergo.com/goto/u8EDXzoz?page_id=9:0063&file=92338488940050">🖍️ UI DESIGN |</a>
-<a href="https://depazer.github.io/playground">👀 Web Online</a>
+<a href="https://hclab.liuxinghao.top/">👀 Web Online</a>
 </p>
 
 ## Getting Started
