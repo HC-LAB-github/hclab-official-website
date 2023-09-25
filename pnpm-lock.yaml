@@ -15,8 +15,8 @@ dependencies:
     specifier: ^18.2.6
     version: 18.2.6
   '@unocss/postcss':
-    specifier: ^0.53.4
-    version: 0.53.6(postcss@8.4.30)
+    specifier: ^0.56.2
+    version: 0.56.2(postcss@8.4.30)
   cz-conventional-changelog-zh:
     specifier: ^0.0.2
     version: 0.0.2
@@ -1143,8 +1143,20 @@ packages:
       unconfig: 0.3.10
     dev: false
 
+  /@unocss/config@0.56.2:
+    resolution: {integrity: sha512-dIm7ARnqSgyMs1urXTeqlLUAbifAhllnSh1ZiUmh7c+ThcXcTYAD6xtosSA2SXJU94D6pRCaMhuoRix9j6asZw==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@unocss/core': 0.56.2
+      unconfig: 0.3.10
+    dev: false
+
   /@unocss/core@0.53.6:
     resolution: {integrity: sha512-wuaLjWCzKUisHUxo4pjIdzcimdSmVa2hMHA3V7wVFBiSFX96/s7l0bvhHGFF/gMjbOnvJ+y+lBl3VKqcj9kwbA==}
+    dev: false
+
+  /@unocss/core@0.56.2:
+    resolution: {integrity: sha512-44pqqOgO9Lxg9WHpz5RYJ8PvnuEyoc5WuntmPkIeQcoIBArgAleAMKuDQ53MLsF+M1fwz6oBeWDk8ASO6Wd/kw==}
     dev: false
 
   /@unocss/extractor-arbitrary-variants@0.53.6:
@@ -1168,6 +1180,21 @@ packages:
     dependencies:
       '@unocss/config': 0.53.6
       '@unocss/core': 0.53.6
+      css-tree: 2.3.1
+      fast-glob: 3.3.1
+      magic-string: 0.30.3
+      postcss: 8.4.30
+    dev: false
+
+  /@unocss/postcss@0.56.2(postcss@8.4.30):
+    resolution: {integrity: sha512-mqNEQflEGxaYeqEJuMlFrlnzj1I9O5yvUEhux4EDy0hkqojCldwtjAosJ9jeBU/Sutr/YjWDOQ2+SU0Ei58Rxg==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      postcss: ^8.4.21
+    dependencies:
+      '@unocss/config': 0.56.2
+      '@unocss/core': 0.56.2
+      '@unocss/rule-utils': 0.56.2
       css-tree: 2.3.1
       fast-glob: 3.3.1
       magic-string: 0.30.3
@@ -1234,6 +1261,13 @@ packages:
 
   /@unocss/reset@0.53.6:
     resolution: {integrity: sha512-WtZU0Q5Y9CHzitYPJ+ZGPUssVuDnRakmHETQ2EuBJgWZhgsmTECrpb78+tnJdFVowuYYQyV0CP6a07uwkFNm6g==}
+    dev: false
+
+  /@unocss/rule-utils@0.56.2:
+    resolution: {integrity: sha512-cG2DtKSjaJOety1ELqbQeavQvpX6CZbrbrANR53671Y4SE+S1QAL/muqr61HI0gFveLidqws5dIQq/8SaZPCyg==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@unocss/core': 0.56.2
     dev: false
 
   /@unocss/scope@0.53.6:
