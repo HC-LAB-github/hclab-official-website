@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'UnoCSS Example App',
+  title: 'HCLAB-环创工作室',
   description: 'NextJS + UnoCSS Starter App',
 }
 
@@ -12,7 +12,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-black text-white'>{children}</body>
+      <body className='bg-black text-white'>
+        <header>header</header>
+        <main>
+          {children}
+        </main>
+        <footer>footer</footer>
+      </body>
     </html>
   )
 }

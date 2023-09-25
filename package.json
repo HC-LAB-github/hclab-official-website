@@ -21,7 +21,7 @@
     "src/**/*.{js,vue}": [
       "eslint --fix",
       "git add"
-      ]
+    ]
   },
   "dependencies": {
     "@types/node": "^20.3.2",
@@ -39,8 +39,10 @@
   },
   "devDependencies": {
     "@ileostar/eslint-config": "^0.3.0",
+    "cypress": "^13.2.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3",
+    "install": "^0.13.0",
     "lint-staged": "^14.0.1"
   }
 }
