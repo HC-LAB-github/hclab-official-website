@@ -1,4 +1,6 @@
 import './globals.css'
+import Footer from '../components/footer/page'
+import Header from '../components/header/page'
 
 export const metadata = {
   title: 'HCLAB-环创工作室',
@@ -13,11 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='bg-black text-white'>
-        <header>header</header>
+        <Header/>
         <main>
           {children}
         </main>
-        <footer>footer</footer>
+        <Footer/>
       </body>
     </html>
   )
