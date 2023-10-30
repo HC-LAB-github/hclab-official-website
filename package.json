@@ -30,7 +30,7 @@
     "@types/node": "^20.3.2",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
-    "@unocss/postcss": "^0.53.4",
+    "@unocss/postcss": "^0.57.1",
     "add": "^2.0.6",
     "cz-conventional-changelog-zh": "^0.0.2",
     "eslint": "^8.44.0",
